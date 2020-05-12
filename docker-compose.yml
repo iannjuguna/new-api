@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  groceryapi:
+    image: registry.gitlab.com/ionicfirebaseapp/flutter/grocery-new/new-api/production
+    ports:
+     - "3000:3000"
+    restart: always
+    environment:
+     - NODE_ENV=production

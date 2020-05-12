@@ -1,0 +1,2 @@
+npm.pkg.github.com/:_authToken=bd4265f14362a017f6b694e6d64096ef01dc3551
+registry=@iannjuguna/https://npm.pkg.github.com/

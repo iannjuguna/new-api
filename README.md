@@ -1,2 +1,0 @@
-# tumanaapi
-

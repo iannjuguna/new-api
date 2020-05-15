@@ -177,7 +177,7 @@ export class UsersService {
     // get email verification fields
     private getEmailVerificationFields(verificationId: string) {
         const body: string =
-            'You have successfully registered to Groceries-Pro application. Please follow the link to verify your email Address';
+            'You have successfully registered to Tumana application. Please follow the link to verify your email Address';
         const subject: string = 'Account verification';
         let htmlData: string = '';
         let url: string = '';

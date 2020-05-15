@@ -1,4 +1,4 @@
-FROM node:10.15.3
+FROM node:12.13.0
 
 RUN mkdir -p /usr/src/nest-app
 WORKDIR /usr/src/nest-app

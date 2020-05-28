@@ -2,8 +2,7 @@ version: 'latest'
 
 services:
   dashboard:
-    image: registry.gitlab.com/1iannjuguna/dashboard
-    ports:
+    image: registry.gitlab.com/1iannjuguna/tumanaapi
      - "3000:3000"
     restart: always
     environment:

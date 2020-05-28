@@ -59,7 +59,7 @@ async function bootstrap() {
         if (process.platform.toString() == 'darwin') {
             globalConfig.localIp = networkData.en0.find(data => data.family === 'IPv4').address;
             console.log('IP', globalConfig.localIp);
-        } else if (process.platform.toString() == 'win64') {
+        } else if (process.platform.toString() == 'win32-x64') {
             globalConfig.localIp = networkData['Wireless Network Connection 16'].find(data => data.family === 'IPv4').address;
             console.log(globalConfig.localIp);
         }

@@ -58,7 +58,7 @@
     "ejs": "^3.1.2",
     "fcm-node": "^1.5.2",
     "geolib": "^3.2.1",
-    "html-pdf": "^2.2.0",
+    "html-pdf": "^3.0.1",
     "http-module": "0.0.5",
     "imagekit": "^3.0.4",
     "json2xls": "^0.1.2",
